@@ -1,0 +1,19 @@
+# Ignore virtual environment and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Python Wheel and dist files
+*.whl
+dist/
+build/
+
+# Ignore Poetry virtual environment (if created locally)
+.env
+.venv

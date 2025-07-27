@@ -1,0 +1,19 @@
+    [project]
+name = "jarvis"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Adwaith R Nair",email = "adwaith.r.nair189@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pyttsx3 (>=2.99,<3.0)",
+    "speechrecognition (>=3.14.3,<4.0.0)",
+    "numpy (>=2.3.2,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
